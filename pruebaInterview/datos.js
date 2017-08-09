@@ -5,5 +5,6 @@ function hacerPromedio(){
    suma = suma + parseInt(items[i].innerHTML);
  }
   var resultado = suma / 9;
-  alert('Tu promedio es: '+ resultado);
+  var resultado2 = Math.round(resultado * 10)/10;
+  alert('Tu promedio es: '+ resultado2);
 }
