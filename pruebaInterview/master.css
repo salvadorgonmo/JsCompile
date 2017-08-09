@@ -2,17 +2,12 @@ body{
   background-color: beige;
 }
 
-#primeros{
+tr:nth-child(even){
   background-color: black;
-  color: white;
+  color:white;
 }
 
-#blancos{
+tr:nth-child(odd){
   background-color: white;
   color: black;
-}
-
-#negros{
-  background-color: black;
-  color: white;
 }
